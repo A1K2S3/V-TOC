@@ -1,9 +1,4 @@
 import React from 'react'
-import model1 from '../assets/Images/model1.jpg'
-import model2 from '../assets/Images/model2.jpg'
-import model3 from '../assets/Images/model3.jpg'
-import clothesRack from '../assets/Images/clothesRack.jpg'
-import { Link } from 'react-router-dom'
 
 const HeroSection = () => {
   return (
@@ -17,13 +12,6 @@ const HeroSection = () => {
           <p className='uppercase'>Virtual Fashion Lab</p>
         </div>
       </div>
-      
-        
-        {/* <div className="">
-          <Link to={'/SignUp'}>
-            <div className="p-4 bg-white text-black">Sign Up</div>
-          </Link>
-        </div> */}
     </>
   )
 }
