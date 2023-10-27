@@ -17,6 +17,11 @@ const CTASection = () => {
           <p>Log In</p>
         </div>
         </Link>
+        <Link to={'sample'}>
+        <div className="px-6 py-2 bg-accent-100 text-accent-900 rounded-full hover:bg-yellow-400 focus:bg-yellow-400 hover:text-accent-100 focus:text-accent-100 transition-colors duration-200">
+          <p>Sample</p>
+        </div>
+        </Link>
       </div>
     </div>
   )

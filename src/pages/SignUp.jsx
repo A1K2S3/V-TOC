@@ -1,14 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import logo from '../assets/Images/Logo-2.svg'
 
 const SignUp = () => {
   
   return (
     <div className="min-h-screen flex items-center justify-center">
     <div className="max-w-md w-full p-6 bg-white rounded-lg shadow-lg">
-      <div className="flex justify-center my-4">
-        <img src={ logo } alt="Logo" className=""  />
+      <div className="flex items-center justify-end gap-3 mb-4">
+        <div className='w-5'>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 12 12" ><path d="M 6 0 L 6 12 M 0 6 L 12 6 M 1.757 1.758 L 10.243 10.242 M 1.758 10.243 L 10.242 1.757" fill="transparent" strokeWidth="1.45" stroke="#111827" strokeMiterlimit="10"></path></svg>
+        </div>
+        <p className='text-accent-900 font-secondary text-xl'>V-TOC</p>
       </div>
       <h1 className="text-2xl font-semibold text-center text-gray-500 mt-8 mb-6">Sign Up</h1>
       <form>
